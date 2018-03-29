@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/action_four"
+        android:layout_below="@+id/line_two"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/list_date"
+            android:layout_weight="25.9"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="日期"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/list_doctor"
+            android:layout_weight="15"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="医生"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/list_style"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="类型"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/list_content"
+            android:layout_weight="48.6"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="病症"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#cccccc"/>
+    </LinearLayout>
+</LinearLayout>
