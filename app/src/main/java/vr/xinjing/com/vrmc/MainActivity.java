@@ -78,8 +78,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
     @BindView(R.id.app_name)
     TextView appName;
     LoginPresenter lp;
-    @BindView(R.id.img_img)
-    ImageView imgImg;
+//    @BindView(R.id.img_img)
+//    ImageView imgImg;
     @BindView(R.id.tv_update)
     TextView tvUpdate;
     private LocalInfo users;

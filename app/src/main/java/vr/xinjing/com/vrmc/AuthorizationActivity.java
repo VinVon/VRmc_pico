@@ -49,7 +49,7 @@ public class AuthorizationActivity extends AppCompatActivity implements LoginVie
     @BindView(R.id.hospital)
     EditText hospital;
     @BindView(R.id.img_1)
-    Button img1;
+    TextView img1;
     private ProgressDialog dialog;
     private String path = "http://test.med-vision.cn/api/v1/appVrRoom/login";
     private String device_model = "";
@@ -118,7 +118,7 @@ public class AuthorizationActivity extends AppCompatActivity implements LoginVie
         }else{
 
         }
-        Intent intent = new Intent(AuthorizationActivity.this,MainActivity.class);
+        Intent intent = new Intent(AuthorizationActivity.this,AuthorizationActivity.class);
         startActivity(intent);
     }
 
